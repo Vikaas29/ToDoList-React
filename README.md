@@ -1,4 +1,4 @@
-GITHUB LINK- https://github.com/Vikaas29/ToDoList-React-
+GITHUB LINK- https://github.com/Vikaas29/ToDoList-React
 
 This is a basic Application build using React and Vite.
 

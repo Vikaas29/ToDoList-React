@@ -1,0 +1,88 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+h1{
+  color: orange;
+  text-shadow:1px 1px 1px yellow;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.InputDiv{
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+  gap: 30px;
+}
+.InputBox{
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 5px;
+  font-family: monospace,'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: larger;
+  box-shadow: 1px 1px 10px white;
+}
+.AddButton{
+  width: 50px;
+  border-radius: 5px;
+  background-color: orange;
+  transition: all 0.1s linear;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 1px 1px 10px orange;
+}
+.AddButton:hover{
+  background-color: yellow;
+  box-shadow: 1px 1px 10px yellow;
+}
+
+.listItem{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-bottom: 1px black solid;
+  background-color: white;
+  width: 500px;
+  padding: 5px;
+  height: 40px;
+  gap: 3%;
+  font-family: monospace,'Times New Roman', Times, serif;
+}
+.checkBox{
+  width: 5%;
+}
+.item{
+  width: 90%;
+  text-decoration: none;
+  font-size: x-large;
+  overflow: auto;
+  scrollbar-color: black white;
+  scrollbar-width: thin;
+}
+.itemDone{
+  width: 90%;
+  text-decoration: line-through;
+  font-size: x-large;
+  color: grey;
+  overflow: auto;
+  scrollbar-color:black white;
+  scrollbar-width: thin;
+}
+.editDelete{
+  width: 5%;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 100%;
+}
+
+.List{
+  border-radius:10px;
+  box-shadow: 2px 2px 10px white;
+  overflow: hidden;
+}
